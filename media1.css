@@ -1,0 +1,223 @@
+@media (max-width: 600px) {
+    .container{
+        height: 100%;
+        width: 95%;
+        position: static;
+    }
+    #navigation{
+        border: 0;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    /* Banner Section */
+    #banner_main{
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    #banner_content{
+        width: 100%;
+    }
+    #banner_content h1{
+        font-size: 47px;
+    }
+    #banner_content h2{
+        font-size: 27px;
+    }
+    #banner_content p{
+        font-size: 15px;
+    }
+    #button a{
+        padding: 8px 15px;
+    }
+    #banner_image{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #banner_image img{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    #boxes_main{
+        flex-direction: column;
+        margin-top: 30px;
+        position: static;
+    }
+    .box{
+        margin: 0 auto;
+        width: 70%;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+    .box h1{
+        font-size: 20px;
+    }
+    .box p{
+        font-size: 10px;
+    }
+    /* About us Section */
+    .preheading{
+        margin: 40px 0 40px;
+        font-size: 15px;
+        text-underline-offset: 15px;
+    }
+    .container2{
+        height: 100%;
+        width: 100%;
+        background: none;
+        line-height: 17px;
+    }
+    .inner{
+        width: 90%;
+        height: 60%;
+    }
+    .about_main{
+        padding: 10px 0;
+    }
+    .about_main h3{
+        font-size: 13px;
+        padding: 10px 10px 0;
+    }
+    .about_main p{
+        font-size: 10px;
+        padding: 20px 20px 10px;
+        line-height: 25px;
+    }
+    .read_more{
+        font-size: 10px;
+        padding: 15px 30px;
+        border-radius: 30px;
+    }
+    /* Gallery Secvtion */
+    #gallery_section{
+        height: 100%;
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .preheading2{
+        margin: 45px 0;
+        font-size: 15px;
+        text-underline-offset: 15px;
+    }
+    .prepara{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .gallery-img{
+        width: 100%;
+        margin-top: 0;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .img_text{
+        width: 100%;
+        left: 0;
+    }
+    .img_text h4{
+        font-size: 20px;
+    }
+    .img_text h5{
+        font-size: 15px;
+    }
+    .see_more a{
+        padding: 15px 30px;
+        border-radius: 30px;
+    }
+    /* testimonial section */
+    .testimonial-boxes{
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .test-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .tesimage{
+        width: 30%;
+    }
+    .tesimage img{
+        width: 100%;
+        padding: 0;
+    }
+    .tescontent{
+        width: 60%;
+    }
+    .tesname{
+        margin-left: 65%;
+        font-size: 15px;
+    }
+    .tesbrac{
+        margin-left: 65%;
+        font-size: 12px;
+    }
+    .test-box p{
+        font-size: 12px;
+    }
+    /* footer */
+    .footertopcontent{
+        flex-direction: column;
+    }
+    .footertopcontent h1{
+        font-size: 20px;
+        width: 50%;
+    }
+    .ftopicons{
+        flex-direction: column;
+        font-size: 14px !important;
+    }
+    .topicons{
+        margin: 25px 15px 0 15px;
+        padding: 0;
+    }
+    .footermidcontent{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footerinputs{
+        width: 95%;
+    }
+    .footerimage{
+        width: 100%;
+    }
+    .footerbottomcontent{
+        flex-direction: column;
+    }
+    .send{
+        margin: 0 30px;
+        width: 55%;
+    }
+    .icon {
+        width: 24px;
+        padding: 14% 10px;
+        font-size: 25px !important;
+    }
+    .inputend{
+        width: 85%;
+        padding-left: 10px;
+        margin: 20px 10px;
+    }
+    .subscribe{
+        position: static;
+        margin: 20px 10px;
+        width: 55%;
+    }
+    .border-content h4{
+        font-size: 15px;
+        padding: 15px 0;
+    }
+
+}
